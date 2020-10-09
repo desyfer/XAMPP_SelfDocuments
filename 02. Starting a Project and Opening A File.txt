@@ -1,0 +1,7 @@
+01) To allow htdocs to allow directories and files to be made inside them, type "cd/opt/lampp" and type "sudo chmod 777 ./htdocs".
+
+02) Now you can make directories and files inside htdocs.
+
+03) To open up the dashboard or phpmyadmin in the web browser, type in the broswer's address bar "localhost/" or "localhost/phymyadmin" respectively.
+
+04) To open a project folder, you can type "localhost/ProjectFolderName" in the web browser's address bar.

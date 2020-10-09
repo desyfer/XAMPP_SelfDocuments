@@ -1,0 +1,17 @@
+01) Install xampp by going to the Apache website, and downloading the installer file for it. It would usually be in Downloads, but open the directory where the installer file is opened in the terminal.
+
+02) "ls" would show the list of the files inside the directory, while "ls -al" would show the permissions for the files. The installer won't have an x in its permissions, meaning that it isn't allowed to execute.
+
+03) To make it be able to execute, type "sudo chmod +x NameOfTheInstallerFileWithExtension"
+
+04) now "ls -al NameOfTheInstallerFileWithExtension" will give you an x at the end of its permissions.
+
+05) To run the installer, type "sudo ./NameOfTheInstallerFileWithExtension"
+
+06) Follow the setup wizard.
+
+07) XAMPP is now installed.
+
+08) To open the control panel, go to "cd /opt/lampp/" and "type sudo manager-linux-x64.run" (the name of the .run file in the directory).
+
+09) You can start servers by going to the "Manage Servers" tab.
